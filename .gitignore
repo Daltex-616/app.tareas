@@ -1,8 +1,8 @@
 .env
 dist
+task.http/
 node_modules/
 script
-node_modules/
 .expo/
 dist/
 npm-debug.*

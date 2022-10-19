@@ -1,0 +1,6 @@
+import app from "./app.js"
+
+
+app.listen(4000)
+console.log("server en el puerto 4000")
+

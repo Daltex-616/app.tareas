@@ -1,0 +1,32 @@
+@api = http://localhost:4000/tasks
+
+GET {{api}}
+
+
+###
+GET {{api}}/2
+
+
+###
+
+GET {{api}}/count
+###
+POST {{api}}
+Content-Type: application/json
+
+{
+    "title":"dormir",
+    "descripcion":"intentar dormir 7 horas o sino me tiran las patas"
+}
+
+###
+DELETE {{api}}/5
+###
+
+PUT {{api}}/2
+Content-Type: application/json
+
+{
+    "title":"cagar",
+    "descripcion":"cagar en publico esta mal?"
+}
